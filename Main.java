@@ -26,7 +26,7 @@ public class Main {
         }
 
         int finalMaxCount = maxCount;
-        schoolNumbersCounts.forEach((e1, e2) -> { if (e2 == finalMaxCount) System.out.println(e1);});
+        schoolNumbersCounts.forEach((school, count) -> { if (count == finalMaxCount) System.out.println(school);});
 
     }
 }
